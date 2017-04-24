@@ -8,8 +8,25 @@
 
 import Foundation
 import CoreData
+import UIKit
 
 @objc(Video)
 public class Video: NSManagedObject {
-
+    
+    class func createVideoObject(videoDict: [String:String]) {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
+        if let videoId = videoDict["id"] {
+            let video = Video(entity: Video.entity(), insertInto: appDelegate.persistentContainer.viewContext)
+            video.videoId = videoId
+            video.title = videoDict["title"] ?? ""
+            if let imgUrl = videoDict["thumbnail_120_url"] {
+                video.imageUrl = imgUrl
+            } else {
+                video.imageUrl = videoDict["thumbnail_url"] ?? ""
+                video.isSearchResult = true
+            }
+        }
+    }
 }

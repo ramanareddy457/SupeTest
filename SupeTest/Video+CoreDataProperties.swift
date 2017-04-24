@@ -18,7 +18,7 @@ extension Video {
 
     @NSManaged public var imageUrl: String?
     @NSManaged public var title: String?
-    @NSManaged public var videoId: String?
+    @NSManaged public var videoId: String
     @NSManaged public var isSearchResult: Bool
 
 }

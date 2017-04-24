@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9663A96B1EAA20CA00B2C886"
-               BuildableName = "SupeTest.app"
-               BlueprintName = "SupeTest"
-               ReferencedContainer = "container:SupeTest.xcodeproj">
+               BlueprintIdentifier = "CB0656DB1EEED5682CA5A7F0DF473BE0"
+               BuildableName = "DailymotionPlayerSDK.framework"
+               BlueprintName = "DailymotionPlayerSDK"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9663A96B1EAA20CA00B2C886"
-            BuildableName = "SupeTest.app"
-            BlueprintName = "SupeTest"
-            ReferencedContainer = "container:SupeTest.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9663A96B1EAA20CA00B2C886"
-            BuildableName = "SupeTest.app"
-            BlueprintName = "SupeTest"
-            ReferencedContainer = "container:SupeTest.xcodeproj">
+            BlueprintIdentifier = "CB0656DB1EEED5682CA5A7F0DF473BE0"
+            BuildableName = "DailymotionPlayerSDK.framework"
+            BlueprintName = "DailymotionPlayerSDK"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9663A96B1EAA20CA00B2C886"
-            BuildableName = "SupeTest.app"
-            BlueprintName = "SupeTest"
-            ReferencedContainer = "container:SupeTest.xcodeproj">
+            BlueprintIdentifier = "CB0656DB1EEED5682CA5A7F0DF473BE0"
+            BuildableName = "DailymotionPlayerSDK.framework"
+            BlueprintName = "DailymotionPlayerSDK"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

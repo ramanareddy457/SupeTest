@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F9F15E1EABB4F8006F03D0 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9F15D1EABB4F8006F03D0 /* VideoViewController.swift */; };
+		452E5D195493F735D8DD438F /* Pods_SupeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F72E2D02CFF3ADD79CBC0CAC /* Pods_SupeTest.framework */; };
 		9663A9701EAA20CA00B2C886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663A96F1EAA20CA00B2C886 /* AppDelegate.swift */; };
-		9663A9721EAA20CA00B2C886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663A9711EAA20CA00B2C886 /* ViewController.swift */; };
 		9663A9751EAA20CA00B2C886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9663A9731EAA20CA00B2C886 /* Main.storyboard */; };
 		9663A9781EAA20CA00B2C886 /* SupeTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9663A9761EAA20CA00B2C886 /* SupeTest.xcdatamodeld */; };
 		9663A97A1EAA20CA00B2C886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9663A9791EAA20CA00B2C886 /* Assets.xcassets */; };
 		9663A97D1EAA20CA00B2C886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9663A97B1EAA20CA00B2C886 /* LaunchScreen.storyboard */; };
+		9663A98D1EAA23AF00B2C886 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663A98C1EAA23AF00B2C886 /* HomeViewController.swift */; };
+		9663A9921EAA252400B2C886 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9663A9911EAA252400B2C886 /* VideoCell.swift */; };
+		96D267A31EAD38A900B559AC /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D267A11EAD38A900B559AC /* Video.swift */; };
+		96D267A41EAD38A900B559AC /* Video+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D267A21EAD38A900B559AC /* Video+CoreDataProperties.swift */; };
+		96D267A61EAD59F700B559AC /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D267A51EAD59F700B559AC /* ApiManager.swift */; };
+		96D267A81EAD6CEF00B559AC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D267A71EAD6CEF00B559AC /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07F9F15D1EABB4F8006F03D0 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		9663A96C1EAA20CA00B2C886 /* SupeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9663A96F1EAA20CA00B2C886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9663A9711EAA20CA00B2C886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9663A9741EAA20CA00B2C886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9663A9771EAA20CA00B2C886 /* SupeTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SupeTest.xcdatamodel; sourceTree = "<group>"; };
 		9663A9791EAA20CA00B2C886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9663A97C1EAA20CA00B2C886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9663A97E1EAA20CA00B2C886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9663A98C1EAA23AF00B2C886 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9663A9911EAA252400B2C886 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		96D267A11EAD38A900B559AC /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		96D267A21EAD38A900B559AC /* Video+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		96D267A51EAD59F700B559AC /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		96D267A71EAD6CEF00B559AC /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B33661F29236A9BBEEF7B305 /* Pods-SupeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SupeTest/Pods-SupeTest.release.xcconfig"; sourceTree = "<group>"; };
+		C59B8FB8DC10210521CF67FD /* Pods-SupeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SupeTest/Pods-SupeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F72E2D02CFF3ADD79CBC0CAC /* Pods_SupeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452E5D195493F735D8DD438F /* Pods_SupeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		935E277D2DBF05383BD085BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F72E2D02CFF3ADD79CBC0CAC /* Pods_SupeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9663A9631EAA20CA00B2C886 = {
 			isa = PBXGroup;
 			children = (
 				9663A96E1EAA20CA00B2C886 /* SupeTest */,
 				9663A96D1EAA20CA00B2C886 /* Products */,
+				BE6F91B4C33FFFC21D3FDE7B /* Pods */,
+				935E277D2DBF05383BD085BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +83,11 @@
 		9663A96E1EAA20CA00B2C886 /* SupeTest */ = {
 			isa = PBXGroup;
 			children = (
+				96D267A01EAD385B00B559AC /* Model */,
+				9663A9901EAA250500B2C886 /* Views */,
+				9663A98B1EAA239B00B2C886 /* Controllers */,
 				9663A96F1EAA20CA00B2C886 /* AppDelegate.swift */,
-				9663A9711EAA20CA00B2C886 /* ViewController.swift */,
+				96D267A51EAD59F700B559AC /* ApiManager.swift */,
 				9663A9731EAA20CA00B2C886 /* Main.storyboard */,
 				9663A9791EAA20CA00B2C886 /* Assets.xcassets */,
 				9663A97B1EAA20CA00B2C886 /* LaunchScreen.storyboard */,
@@ -67,6 +97,42 @@
 			path = SupeTest;
 			sourceTree = "<group>";
 		};
+		9663A98B1EAA239B00B2C886 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9663A98C1EAA23AF00B2C886 /* HomeViewController.swift */,
+				07F9F15D1EABB4F8006F03D0 /* VideoViewController.swift */,
+				96D267A71EAD6CEF00B559AC /* SearchViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9663A9901EAA250500B2C886 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9663A9911EAA252400B2C886 /* VideoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96D267A01EAD385B00B559AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96D267A11EAD38A900B559AC /* Video.swift */,
+				96D267A21EAD38A900B559AC /* Video+CoreDataProperties.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BE6F91B4C33FFFC21D3FDE7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C59B8FB8DC10210521CF67FD /* Pods-SupeTest.debug.xcconfig */,
+				B33661F29236A9BBEEF7B305 /* Pods-SupeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9663A9811EAA20CA00B2C886 /* Build configuration list for PBXNativeTarget "SupeTest" */;
 			buildPhases = (
+				0CCDB759C70AF711D02708B8 /* [CP] Check Pods Manifest.lock */,
 				9663A9681EAA20CA00B2C886 /* Sources */,
 				9663A9691EAA20CA00B2C886 /* Frameworks */,
 				9663A96A1EAA20CA00B2C886 /* Resources */,
+				D47BCF5D53B319A2287A2168 /* [CP] Embed Pods Frameworks */,
+				E7A5F945D64756B431EB9039 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,14 +203,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CCDB759C70AF711D02708B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D47BCF5D53B319A2287A2168 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SupeTest/Pods-SupeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A5F945D64756B431EB9039 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SupeTest/Pods-SupeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9663A9681EAA20CA00B2C886 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9663A9721EAA20CA00B2C886 /* ViewController.swift in Sources */,
+				96D267A61EAD59F700B559AC /* ApiManager.swift in Sources */,
 				9663A9701EAA20CA00B2C886 /* AppDelegate.swift in Sources */,
+				96D267A41EAD38A900B559AC /* Video+CoreDataProperties.swift in Sources */,
+				96D267A81EAD6CEF00B559AC /* SearchViewController.swift in Sources */,
+				96D267A31EAD38A900B559AC /* Video.swift in Sources */,
+				9663A9921EAA252400B2C886 /* VideoCell.swift in Sources */,
 				9663A9781EAA20CA00B2C886 /* SupeTest.xcdatamodeld in Sources */,
+				07F9F15E1EABB4F8006F03D0 /* VideoViewController.swift in Sources */,
+				9663A98D1EAA23AF00B2C886 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +387,7 @@
 		};
 		9663A9821EAA20CA00B2C886 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C59B8FB8DC10210521CF67FD /* Pods-SupeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SupeTest/Info.plist;
@@ -276,6 +400,7 @@
 		};
 		9663A9831EAA20CA00B2C886 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33661F29236A9BBEEF7B305 /* Pods-SupeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SupeTest/Info.plist;
@@ -305,6 +430,7 @@
 				9663A9831EAA20CA00B2C886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
